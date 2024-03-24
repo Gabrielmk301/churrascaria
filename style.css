@@ -74,12 +74,16 @@ img.logo2 {
     margin: auto;
 
 }
+.container-secundario {
+    width: 92vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 33px 3vw;
+}
 .bloco2 {
-    background-color: rgb(255 248 248);    
-    display: inline-block;
-    margin: 0px 34px 10px 38px;
-    text-align: center;
-    border-radius: 10px;
+    
+    flex-grow: 1;
     
 }
 div.text > h2 {
@@ -279,6 +283,10 @@ aside > div.gallery-container {
     left: -10vw;
     position: relative;
     }
+    div.bloco2 > img {
+        box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.359);
+        border-radius: 100%;
+    }
     div.bloco{
         
             background-position:  center bottom;    
@@ -287,6 +295,27 @@ aside > div.gallery-container {
             background-size: cover;
             height: 65vh;
         }
+        .container-secundario {
+        
+                margin: auto;
+                
+                width: 50vw;
+                display: flex;
+                justify-content: center;
+                padding: 30px 0vw;
+                flex-direction: column;
+            }
+            h3#cardapio {
+                padding: 12px 6.5em;
+                font-family: var(--fonte-destaque);
+                color: var(--cor1);
+                font-size: 16px;
+            
+            }
+}
+.bloco2 {
+    
+    flex-grow: 1;}
         img.logo2 {
             height: 50vh;
             display: block;
