@@ -312,27 +312,28 @@ aside > div.gallery-container {
                 font-size: 16px;
             
             }
-}
-.bloco2 {
+            .bloco2 {
     
-    flex-grow: 1;}
-        img.logo2 {
-            height: 50vh;
-            display: block;
-            margin: auto;
-        }
-        .gallery-items {
-            margin: 1px;
-            padding: 0px;
-            width: 42vw;
-            height: 20vh;
-            box-shadow: 5px 5px 5px #0006;
-            flex-grow: 1;
-        }
-        .gallery-items:hover {
-            transform: scale(1.0);
-        }
-    }
+                flex-grow: 1;}
+                    img.logo2 {
+                        height: 50vh;
+                        display: block;
+                        margin: auto;
+                    }
+                    .gallery-items {
+                        margin: 1px;
+                        padding: 0px;
+                        width: 42vw;
+                        height: 20vh;
+                        box-shadow: 5px 5px 5px #0006;
+                        flex-grow: 1;
+                    }
+                    .gallery-items:hover {
+                        transform: scale(1.0);
+                    }
+}
+
+    
 
 
 
