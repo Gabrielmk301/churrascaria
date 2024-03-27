@@ -460,6 +460,7 @@ div.Copyright {
     height: 10vh;
 }
 div.Copyright > p {
+    padding: 21px;
     color: #000000;
 }
 
@@ -647,6 +648,7 @@ div.Copyright > p {
     }
 
     footer {
+        height: 47vh;
         padding: 12vh 0px;
         display: flex;
         width: 96vw;
@@ -665,13 +667,13 @@ div.Copyright > p {
     }
 
     .rodape>h5 {
-        padding-bottom: 24px;
         font-weight: 500;
-        text-indent: 6px;
-        text-align: left;
-        font-size: 30px;
-        font-family: var(--fonte-destaque);
-        color: #FFBF00;
+    text-indent: 16px;
+    text-align: left;
+    font-size: 30px;
+    font-family: var(--fonte-destaque);
+    color: #FFBF00;
+    margin: -8px;
     }
 
     .rodape>p {
@@ -685,7 +687,7 @@ div.Copyright > p {
         font-family: var(--fonte-padrao);
     }
     .rodape {
-        margin: 0;
+        margin: 0px 0px 41px 0px;
         width: 80vw;
     }
     div.Copyright {
@@ -695,6 +697,7 @@ div.Copyright > p {
         height: 10vh;
     }
     div.Copyright > p {
+        padding: 14px;
         color: #000000;
     }
     
