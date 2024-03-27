@@ -482,9 +482,8 @@ div.Copyright>p {
         background-color: var(--cor3);
         clip-path: circle(100px at 90% -20%);
         transition: 1s ease-in-out;
-
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         gap: 0;
         pointer-events: none;
