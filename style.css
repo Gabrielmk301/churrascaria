@@ -153,7 +153,7 @@ a {
     max-width: 1280px;
     height: 70px;
     margin-inline: auto;
-
+    left: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -179,6 +179,7 @@ a {
 
 
 .logo {
+
     height: 100%;
 }
 
@@ -557,7 +558,7 @@ div.Copyright>p {
 
 @media (max-width: 568px) {
     .logo {
-        left: -10vw;
+        left: -33vw;
         position: relative;
     }
 
@@ -647,10 +648,10 @@ div.Copyright>p {
     }
 
     footer {
-        height: 47vh;
-        padding: 12vh 0px;
+        height: 35vh;
+        padding: 9vh 0px;
         display: flex;
-        width: 96vw;
+        width: 100%
         background-color: var(--cor3);
         align-items: center;
         flex-wrap: wrap;
@@ -658,16 +659,16 @@ div.Copyright>p {
 
     .rodape>h4 {
         font-weight: 500;
-        text-indent: 10px;
+       letter-spacing: 0.5px;
         color: whitesmoke;
         text-align: justify;
-        font-size: 30px;
+        font-size: 24px;
         font-family: var(--fonte-destaque);
     }
 
     .rodape>h5 {
         font-weight: 500;
-        text-indent: 16px;
+        text-indent: 15px;
         text-align: left;
         font-size: 30px;
         font-family: var(--fonte-destaque);
@@ -676,7 +677,7 @@ div.Copyright>p {
     }
 
     .rodape>p {
-        padding: 10px 10px 13px;
+        padding: 10px 0px 13px;
         letter-spacing: -1px;
         line-height: 18px;
         color: whitesmoke;
@@ -687,19 +688,19 @@ div.Copyright>p {
     }
 
     .rodape {
-        margin: 0px 0px 41px 0px;
+        margin: 0px 20px 41px 9px;
         width: 80vw;
     }
 
     div.Copyright {
 
-        width: 96vw;
+        width: 100%;
         background-color: #FFBF00;
         height: 10vh;
     }
 
     div.Copyright>p {
-        padding: 14px;
+        padding: 17px;
         color: #000000;
     }
 
