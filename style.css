@@ -484,7 +484,7 @@ div.Copyright>p {
         transition: 1s ease-in-out;
 
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         gap: 0;
         pointer-events: none;
@@ -556,7 +556,7 @@ div.Copyright>p {
     }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 750px) {
     .logo {
         left: -33vw;
         position: relative;
@@ -575,7 +575,7 @@ div.Copyright>p {
     div.bloco {
 
         background-position: center bottom;
-        background-image: url('img/churrasco.jpg');
+        background-image: url('img/1.png');
         background-repeat: no-repeat;
         background-size: cover;
         height: 65vh;
@@ -651,7 +651,6 @@ div.Copyright>p {
         height: 35vh;
         padding: 9vh 0px;
         display: flex;
-        width: 100%
         background-color: var(--cor3);
         align-items: center;
         flex-wrap: wrap;
