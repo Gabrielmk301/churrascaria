@@ -423,13 +423,13 @@ footer {
 }
 
 .rodape {
+    height: 21vh;
     margin: 0px 0vw 0vw 50px;
-    width: 100%;
+    width: 30vw;
 }
 
 .rodape>h4 {
     font-weight: 500;
-    text-indent: 10px;
     color: whitesmoke;
     text-align: justify;
     font-size: 30px;
