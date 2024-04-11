@@ -633,7 +633,7 @@ div.Copyright>p {
         }
     
         footer {
-            width: 96vw;
+            width: 100%;
             height: 40vh;
             padding: 9vh 0px;
             display: flex;
