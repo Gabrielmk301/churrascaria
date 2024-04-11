@@ -694,5 +694,25 @@ div.Copyright>p {
 /* Orientação horizontal*/
 
 @media (orientation: landscape) {
-
+    .header {
+        background-color: var(--cor5);
+        padding-inline: 0px 127px;
+    }
+    .logo {
+        left: 0;
+        position: relative;
+    }
+    div.bloco {
+        background-position: center bottom;
+        background-image: url(img/1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    img.logo2 {
+        height: 80vh;
+        display: block;
+        margin: auto;
+    }
+    
 }
