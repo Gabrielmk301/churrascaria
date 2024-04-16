@@ -89,7 +89,6 @@ img.logo2 {
 }
 
 .container-secundario {
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
     padding: 10px
@@ -955,7 +954,7 @@ div.titulo>img {
         background-repeat: no-repeat;
         background-image: url(Sobre/Assets/img/2.png);
         height: 85vh;
-        width: 100vw;}
+        width: 98vw;}
 
     .logo {
         height: 7vw;
