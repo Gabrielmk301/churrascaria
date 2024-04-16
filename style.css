@@ -963,7 +963,7 @@ div.titulo>img {
     }
 
     div.bloco {
-        background-position: center bottom;
+        background-position: center center;
         background-image: url(img/1.png);
         background-repeat: no-repeat;
         background-size: cover;
