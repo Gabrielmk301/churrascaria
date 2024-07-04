@@ -81,7 +81,7 @@ p {
 }
 
 img.logo2 {
-    top: 109px;
+    top: 221px;
     position: absolute;
     display: block;
     margin: auto;
@@ -106,21 +106,14 @@ div.bloco2>img {
     border-radius: 100%;
 }
 
-div#b1 {
-    width: 20%;
+div#b1,div#b3 {
+    max-width: 18%;    text-align: center;
 }
 
 div#b2 {
-    border-radius: 0px;
-    width: 20%;
-    padding: 0;
-}
+    text-align: center;
+    max-width: 18%;    padding: 0;}
 
-div#b3 {
-    border-radius: 0px;
-    width: 20%;
-    padding: 0;
-}
 
 
 a {
@@ -166,7 +159,7 @@ a {
 
 .logo {
 
-    height: 7vw;
+    height: 5vw;
 }
 
 .hamburger {
@@ -711,16 +704,14 @@ div.titulo>img {
     }
 
     div#b1 {
-        margin: auto;
-        width: 100%;
+        max-width: 100%;
         display: grid;
         justify-items: center;
 
     }
 
     div#b2 {
-        margin: auto;
-        width: 100%;
+        max-width: 100%;
         display: grid;
         justify-items: center;
     }
@@ -728,8 +719,7 @@ div.titulo>img {
 
 
     div#b3 {
-        margin: auto;
-        width: 100%;
+        max-width: 100%;
         display: grid;
         justify-items: center;
     }
@@ -936,45 +926,3 @@ div.titulo>img {
 
 /* Orientação horizontal*/
 
-@media (orientation: landscape) {
-    .header {
-        background-color: var(--cor5);
-        padding-inline: 0px 127px;
-    }
-    .titulo {
-        position: absolute;
-        top: 193px;
-        left: 58vh;
-        height: 24vh;
-    }
-    .fundo {
-        filter: brightness(0.4);
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(Sobre/Assets/img/2.png);
-        height: 85vh;
-        width: 98vw;}
-
-    .logo {
-        height: 7vw;
-    left: 0;
-    position: relative;
-    }
-
-    div.bloco {
-        background-position: center center;
-        background-image: url(img/1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-    }
-
-    img.logo2 {
-        height: 80vh;
-        display: block;
-        margin: auto;
-    }
-
-
-}
